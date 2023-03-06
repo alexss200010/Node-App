@@ -26,6 +26,6 @@ jobs:
         # or you can signup for free at https://snyk.io/login
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          # image: nest-app
+          image: nest-app
           args: --file=Dockerfile
           command: monitor
